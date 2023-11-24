@@ -2,7 +2,7 @@
   "homepage": "http://Emily-MM.github.io/WebPage_ViajandoJuntos",
   "name": "viajandojuntos",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "start": "nodemon server.js",
   "proxy": "http://localhost:4000",
   "dependencies": {
