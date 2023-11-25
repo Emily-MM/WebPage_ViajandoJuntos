@@ -19,7 +19,7 @@ import { DateRangePicker } from '@mui/x-date-pickers-pro/DateRangePicker';
 import { TextField} from "@mui/material";
 import './HotelBooking.css'
 
-
+import { Link } from 'react-router-dom'
 
 function HotelBooking() {
     return (
@@ -82,7 +82,9 @@ function HotelBooking() {
                         <div className='comprar'></div>
                       </div>
                       <div className='comprar'>
-                      <Button variant="contained" color="success">Reservar</Button>
+                      <Link to= "/my-account/trips" > 
+                        <Button variant="contained" color="success">Reservar</Button>
+                      </Link>
                       </div>
                   </div>
                   <div className="post">
@@ -105,7 +107,9 @@ function HotelBooking() {
                         <div className='comprar'></div>
                       </div>
                       <div className='comprar'>
-                      <Button variant="contained" color="success">Reservar</Button>
+                      <Link to= "/my-account/trips" >
+                        <Button variant="contained" color="success">Reservar</Button>
+                      </Link>
                       </div>
                   </div>
                   <div className="post">
@@ -128,7 +132,9 @@ function HotelBooking() {
                         <div className='comprar'></div>
                       </div>
                       <div className='comprar'>
-                      <Button variant="contained" color="success">Reservar</Button>
+                      <Link to= "/my-account/trips" > 
+                        <Button variant="contained" color="success">Reservar</Button>
+                      </Link>
                       </div>
                   </div>
                   <div className="post">
@@ -151,7 +157,9 @@ function HotelBooking() {
                         <div className='comprar'></div>
                       </div>
                       <div className='comprar'>
-                      <Button variant="contained" color="success">Reservar</Button>
+                      <Link to= "/my-account/trips">
+                        <Button variant="contained" color="success">Reservar</Button>
+                      </Link>
                       </div>
                   </div>
               </div>

@@ -2,7 +2,7 @@ import React from "react";
 import './Head&Search.css'
 
 import background from '../images/Background.jpg'
-
+import { Link } from 'react-router-dom';
 import { AdapterDayjs } from '@mui/x-date-pickers-pro/AdapterDayjs';
 import { DemoContainer } from '@mui/x-date-pickers/internals/demo';
 import { LocalizationProvider } from '@mui/x-date-pickers-pro';
@@ -49,8 +49,9 @@ return (
                 </div>
                 <div className="group-wrapper">
                     <div className="group-2">
+                        <Link to="/Flight-Booking" className='text3'>Find Trip Now</Link>
                         <span className="search_icon">🔍</span>
-                    <div className="text3">Find Trip Now</div>
+                    
                     </div>
                 </div>
             </div>

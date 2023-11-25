@@ -9,7 +9,7 @@ import { DateRangePicker } from '@mui/x-date-pickers-pro/DateRangePicker';
 import { TextField, FormLabel,FormControl,Radio,RadioGroup, FormControlLabel} from "@mui/material";
 import './FlightBooking.css'
 
-
+import { Link } from 'react-router-dom'
 
 function Register() {
     return (
@@ -89,7 +89,9 @@ function Register() {
                         <div className='comprar'></div>
                       </div>
                       <div className='comprar'>
-                      <Button variant="contained" color="success">Comprar</Button>
+                      <Link to="/Hotel-Booking"> 
+                        <Button variant="contained" color="success">Comprar</Button>
+                      </Link>
                       </div>
                   </div>
                   <div className="post">
@@ -109,7 +111,9 @@ function Register() {
                         <div className='comprar'></div>
                       </div>
                       <div className='comprar'>
-                      <Button variant="contained" color="success">Comprar</Button>
+                      <Link to="/Hotel-Booking"> 
+                        <Button variant="contained" color="success">Comprar</Button>
+                      </Link>
                       </div>
                   </div>
                   <div className="post">
@@ -129,7 +133,9 @@ function Register() {
                         <div className='comprar'></div>
                       </div>
                       <div className='comprar'>
-                      <Button variant="contained" color="success">Comprar</Button>
+                      <Link to="/Hotel-Booking"> 
+                        <Button variant="contained" color="success">Comprar</Button>
+                      </Link>
                       </div>
                   </div>
                   <div className="post">
@@ -149,7 +155,9 @@ function Register() {
                         <div className='comprar'></div>
                       </div>
                       <div className='comprar'>
-                      <Button variant="contained" color="success">Comprar</Button>
+                      <Link to="/Hotel-Booking"> 
+                        <Button variant="contained" color="success">Comprar</Button>
+                      </Link>
                       </div>
                   </div>
               </div>
